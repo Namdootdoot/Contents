@@ -6,12 +6,12 @@
 
 .header{
   flex: 15%
-  background-color: 
+  background-color: lightgray;
 }
 
 .menu{
   flex: 5%
-  background-color: 
+  background-color: darkgray;
 }
 .menu hover{
   background-color:lightgray;
