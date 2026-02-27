@@ -1,30 +1,34 @@
 .container{
-  display: flex;
-  flex-direction: colum;
-  height: 100vh;
+  display:flex;
+  flex-direction:column;
+  height:100vh;
 }
 
 .header{
-  flex: 15%
-  background-color: lightgray;
+  flex:15%
+  background-color:lightgray;
 }
 
 .menu{
-  flex: 5%
-  background-color: darkgray;
+  flex:5%
+  background-color:darkgray;
 }
+
 .menu hover{
   background-color:lightgray;
   color:black;
 }
+
 .menu a{
   padding:15px 20px
   color:pink;
 }
+
 .content{
   flex: 70%
   background-color: white
 }
+
 .content iframe{
   flex: 1;
   width: 100%
@@ -37,22 +41,20 @@
   background-color: 
 }
 
-
-
-h1 { color: red;}
+h1 { color:red;}
 .f1 {
-  color: tomato;
-  margin-top: 18pt;
-  margin-bottom: 12pt;
-  font-size: 20px;
-  font-weight: bold;
-  font-family: Arial;
+  color:tomato;
+  margin-top:18pt;
+  margin-bottom:12pt;
+  font-size:20px;
+  font-weight:bold;
+  font-family:Arial;
 }
 .f2 {
-  color: black;
-  margin-top: 6pt;
-  margin-bottom: 6pt;
-  font-size: 15px;
-  font-style: normal;
-  font-family: Arial;
+  color:black;
+  margin-top:6pt;
+  margin-bottom:6pt;
+  font-size:15px;
+  font-style:normal;
+  font-family:Arial;
 }
