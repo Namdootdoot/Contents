@@ -3,10 +3,14 @@
     <meta charset="utf-8">
   </head>
    <body>
-     <div class="section">
-       <h2>Thank you for your feedback</h2>
-       <ul class="f2">
-         <p>Cảm ơn vì ý kiến,chúng tôi sẽ đền bù cho bạn sau</p>
-       </ul>
+     <p id="kq"></p>
+     <script>
+       let pp=new URLSearchParams(window.location.search);
+       let ten=pp.get("txtTen");
+       let yk=pp.get("txtComment");
+       let email=pp.get("txtEmail");
+       document.getElementById("kq").innerHTML="Cảm ơn bạn"+ten+ "đã đóng góp ý kiến"<br><br> "Chúng tôi xin tặng bạn phần khô gà với ý kiến sau:<br>"+yk;
+     </script>
+     
    </body>
 </html>
